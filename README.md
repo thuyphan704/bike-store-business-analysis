@@ -1,6 +1,7 @@
 # bike-store-business-analysis
 End-to-end SQL analysis of a multi-store bike retailer's sales, performance, delivery, and inventory data — from raw relational data to business-ready insights.
 SQL + Power BI + Tableau + Python Business Analysis
+
 📌 Project Overview
 
 This project answers a set of core retail business questions using pure SQL against a 9-table relational database (customers, orders, order_items, products, stores, staffs, stocks, brands, categories). No BI tool involved — the analysis lives entirely in the queries.
