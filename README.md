@@ -20,21 +20,18 @@ Products — best and worst sellers, by store and overall
 
 Inventory — what's out of stock, low stock, or overstocked at each location?
 
-🗂️ Schema
+## 🗂️ Schema
 
-```mermaid
-flowchart TD
-    customers --> orders
-    stores --> orders
-    orders --> staffs
-    staffs -->|manager_id| staffs
-    orders --> order_items
-    order_items --> products
-    products --> stocks
-    stores --> stocks
-    products --> brands
-    products --> categories
-```                                       
+```
+customers ──< orders >── stores
+               │  │
+               │  └──< staffs (self-referencing manager_id)
+               │
+               └──< order_items >── products ──< stocks >── stores
+                                        │
+                                        ├── brands
+                                        └── categories
+```                              
 
 orders.order_status: 1 = Pending · 2 = Processing · 3 = Rejected · 4 = Completed
 
