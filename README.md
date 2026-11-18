@@ -47,3 +47,6 @@ orders.order_status: 1 = Pending · 2 = Processing · 3 = Rejected · 4 = Comple
 4. Capital is heavily tied up in a narrow set of premium Trek bikes. Across stores, $10.8M in inventory value sits in your overstock-flagged SKUs, and 71% of that ($7.7M) is Trek alone. The single biggest concentration is the Trek Domane SLR 9 Disc (2018) — $552K tied up in just two stores (Rowlett + Baldwin).
 
 5. Out-of-stock issues aren't evenly distributed. Santa Cruz and Baldwin each have 10 out-of-stock SKUs; Rowlett has only 5 — consistent with Rowlett's smaller, lower-velocity footprint.
+
+##Python analysis: https://colab.research.google.com/drive/1tGksbvhwlrUVzl371P6YlSJZG_gMIxlA?usp=sharing
+
