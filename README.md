@@ -48,5 +48,5 @@ orders.order_status: 1 = Pending · 2 = Processing · 3 = Rejected · 4 = Comple
 
 5. Out-of-stock issues aren't evenly distributed. Santa Cruz and Baldwin each have 10 out-of-stock SKUs; Rowlett has only 5 — consistent with Rowlett's smaller, lower-velocity footprint.
 
-##Python analysis: https://colab.research.google.com/drive/1tGksbvhwlrUVzl371P6YlSJZG_gMIxlA?usp=sharing
+## Python analysis: https://colab.research.google.com/drive/1tGksbvhwlrUVzl371P6YlSJZG_gMIxlA?usp=sharing
 
